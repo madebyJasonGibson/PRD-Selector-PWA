@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/prd-selector-pwa/', // Replace with your GitHub repo name
+  base: '/PRD-Selector-PWA/', // Replace with your GitHub repo name
 });
