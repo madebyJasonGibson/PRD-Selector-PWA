@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1e40af;
+  --secondary: #34d399;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.focus\:ring-secondary:focus {
+  --tw-ring-color: var(--secondary);
+}
+
+.focus\:border-secondary:focus {
+  border-color: var(--secondary);
+}
